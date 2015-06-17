@@ -1,0 +1,226 @@
+/* style */
+
+* 
+{
+  margin: 0;
+  padding: 0;
+}
+
+.clear{
+	clear: both;
+}
+
+
+/* nav */
+
+div.navbar{
+	text-align: center;
+}
+
+div.navbar ul{
+	margin: 15px;
+}
+
+div.navbar ul li{
+	display: inline;
+}
+
+div.navbar a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: courier new;
+	margin: 5px;
+}
+
+li.active a{
+	color: black;
+	background-color: white;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+div.icon{
+	text-align: right;
+}
+
+div.icon li{
+	display: inline;
+}
+
+div.icon ul{
+	margin: 12px;
+}
+
+nav.nav{
+	background-color: #24282b;
+	height: 55px;
+}
+
+div.logo{
+	height: 30px;
+	text-align: left;
+}
+
+div.logo a img{
+	margin: 10px;
+}
+
+div.logo, div.navbar, div.icon{
+	float: left;
+	width: 33%;
+}
+
+/* leftpanel */
+
+div.leftPanelv1{
+	width: 20%;
+	height: 1000px;
+	border-right: 1px solid gray;
+	float: left;
+}
+
+/* salon lp */
+
+div.salonTs{
+	border-bottom: 1px solid gray;
+	height: 150px;
+}
+
+div.salonTs img{
+	height: 40px;
+	width: 40px;
+	border-radius: 25px;
+}
+
+div.salonTsImgCircl{
+	float: left;
+	margin-top: 55px;
+	margin-left: 25px;
+	margin-right: 10px;
+}
+
+div.salonTsInfo{
+	float: left;
+	margin-top: 55px;
+}
+
+p.salonTsTitle{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/* master lp */
+
+div.masterTs img{
+	height: 40px;
+	width: 40px;
+	border-radius: 25px;
+}
+
+div.masterTsImgCircl{
+	float: left;
+	margin-top: 10px;
+	margin-left: 25px;
+	margin-right: 10px;
+}
+
+div.masterTsInfo{
+	float: left;
+	margin-top: 10px;
+}
+
+p.masterTsTitle{
+	font-size: 14px;
+}
+
+p.masterTsValue{
+	font-size: 12px;
+}
+
+/* salon prof */
+
+div.salonProfImg img{
+	margin: 10px 60px 10px 60px;
+}
+
+div.salonPhone p{
+	margin: 5px 60px 5px 60px;
+	font-size: 25px;
+}
+
+div.reviews{
+	border: 1px solid black;
+	border-radius: 20px;
+	margin: 20px 60px 20px 60px;
+	padding: 10px;
+}
+div.reviews span{
+	padding-left: 20px;
+}
+
+
+/* content */
+
+div.content{
+	float: left;
+	width: 79%;
+	height: 1000px;
+}
+
+div.cdInfo{
+	margin: 20px;
+}
+
+div.cdInfo ul li{
+	display: inline;
+	margin: 5px;
+	font-size: 15px;
+
+}
+
+div.cdInfo{
+	text-align: right;
+}
+
+div.cdDfull, div.cdDtime, div.cdDvalue{
+	float: left;
+	width: 33%;
+}
+
+div.cdDate{
+	margin: 25px;
+}
+
+div.cdDfull, div.cdDtime{
+	font-size: 25px;
+}
+
+div.cdDvalue{
+	font-size: 20px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+div.cdDvalue span{
+	padding: 1px 40px 1px 40px;
+}
+
+span.cdbc{
+	border-left: 1px solid;
+	border-right: 1px solid; 
+}
+
+div.contentTop img{
+	height: 40px;
+	width: 40px;
+	border-radius: 25px;
+}
+
+
+
+
+
+
+
+
